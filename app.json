@@ -1,0 +1,12 @@
+{
+  "name": "questao",
+  "displayName": "questao",
+  "expo": {
+    "name": "questao",
+    "slug": "questao",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
