@@ -8,8 +8,8 @@ import PassoStack from '../componentes/PassoStack'
 const Stack = createStackNavigator()
 
 export default props => (
-    <Stack.Navigator initialRouteName="TelaA">
-        <Stack.Screen name="TelaA" options={{title: 'Informações Iniciais'}}>
+    <Stack.Navigator initialRouteName="TelaB">
+        <Stack.Screen name="TelaA" >
             {props => (
                 <PassoStack{...props} avancar="TelaB">
                     <TelaA/>
